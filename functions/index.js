@@ -1,13 +1,15 @@
 const functions = require("firebase-functions");
 const fetch = require("node-fetch");
 const nodemailer = require("nodemailer");
+require("dotenv").config();
+
 
 // Nodemailer transport configuration (update with your SMTP credentials)
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "egobusgsc@gmail.com",
-    pass: "cegmfnijotn",
+    user: process.env.GMAIL_USERNAME,
+    pass: process.env.GMAIL_PASSWORD,
   },
 });
 
