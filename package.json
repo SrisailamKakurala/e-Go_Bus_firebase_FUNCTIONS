@@ -1,0 +1,20 @@
+{
+  "name": "firebase_functions",
+  "version": "1.0.0",
+  "description": "- **On App (Parents/Drivers/Management):**  \r   - Generate and retrieve the **FCM token** when the app is installed or opened.  \r   - Store the token securely in the Firebase Realtime Database or Firestore:  \r     - **Parents:** Save in each student’s collection under `parentTokens` array.  \r     - **Drivers:** Save in the driver’s profile or collection.  \r     - **Management:** Save in the admin’s profile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-functions-test": "^3.3.0",
+    "firebase-tools": "^13.27.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.16"
+  }
+}

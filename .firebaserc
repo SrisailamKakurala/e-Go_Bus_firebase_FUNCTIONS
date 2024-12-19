@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "ego-bus-management-site",
+    "ego": "egobus-5be34",
+    "staging": "egobus-5be34"
+  },
+  "targets": {},
+  "etags": {}
+}
